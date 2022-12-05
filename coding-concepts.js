@@ -40,7 +40,7 @@ const index = 1
 // --------------------4) What will this log?
 
 const weekendDays = ["saturday", "sunday"]
-console.log(weekendDays.toUpperCase())
+// console.log(weekendDays.toUpperCase())
 
 // a) Your answer: SATURDAY, SUNDAY
 // b) Verify and explain: The toUpperCase function in JavaScript is designed to convert any alphabetical character into its upper case.  However, when I actually ran the code as written, I got no response in the terminal.  I could see it was running, but it did not output the expected response to the screen. I can only assume it is because the parameters of .toUpperCase is blank.
@@ -50,5 +50,5 @@ console.log(weekendDays.toUpperCase())
 const dataTypes = ["number", "string", "Boolean", "undefined"]
 // console.log(typeof dataTypes.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: number
+// b) Verify and explain: This code takes the length of the dataTypes variable.  Since it will determine the length to be 4, the typeOf command returns the response of "number"
