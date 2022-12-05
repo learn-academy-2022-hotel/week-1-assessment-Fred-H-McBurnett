@@ -40,10 +40,10 @@ const index = 1
 // --------------------4) What will this log?
 
 const weekendDays = ["saturday", "sunday"]
-// console.log(weekendDays.toUpperCase())
+console.log(weekendDays.toUpperCase())
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: SATURDAY, SUNDAY
+// b) Verify and explain: The toUpperCase function in JavaScript is designed to convert any alphabetical character into its upper case.  However, when I actually ran the code as written, I got no response in the terminal.  I could see it was running, but it did not output the expected response to the screen. I can only assume it is because the parameters of .toUpperCase is blank.
 
 // --------------------5) What will this log?
 
